@@ -135,25 +135,16 @@
 		9686F7FE1BF5757E00F2B405 /* ccYodaSpeak */ = {
 			isa = PBXGroup;
 			children = (
-				96D2A7C81BF6384400EF1A57 /* profilePictureSmall.jpg */,
-				96D2A7CA1BF638B600EF1A57 /* yoda@2x.png */,
-				96D2A7CC1BF6393E00EF1A57 /* yodaLarge.png */,
-				9686F83F1BF57F9C00F2B405 /* yodaTableViewCell.h */,
-				9686F8401BF57F9C00F2B405 /* yodaTableViewCell.m */,
-				9686F83C1BF57F6F00F2B405 /* yodaResultsViewController.h */,
-				9686F83D1BF57F6F00F2B405 /* yodaResultsViewController.m */,
-				9686F8351BF5770000F2B405 /* yodaConstants.h */,
-				9686F8361BF5770000F2B405 /* yodaDataCalls.h */,
-				9686F8371BF5770000F2B405 /* yodaDataCalls.m */,
+				96D2A7D11BF63E8600EF1A57 /* Images */,
+				96D2A7CE1BF63E6B00EF1A57 /* View */,
+				96D2A7CF1BF63E7600EF1A57 /* Controller */,
+				96D2A7D01BF63E8000EF1A57 /* Model */,
 				9686F8021BF5757E00F2B405 /* AppDelegate.h */,
 				9686F8031BF5757E00F2B405 /* AppDelegate.m */,
-				9686F8051BF5757E00F2B405 /* ViewController.h */,
-				9686F8061BF5757E00F2B405 /* ViewController.m */,
 				9686F8081BF5757E00F2B405 /* Main.storyboard */,
 				9686F80E1BF5757E00F2B405 /* Assets.xcassets */,
 				9686F8101BF5757E00F2B405 /* LaunchScreen.storyboard */,
 				9686F8131BF5757E00F2B405 /* Info.plist */,
-				9686F80B1BF5757E00F2B405 /* ccYodaSpeak.xcdatamodeld */,
 				9686F7FF1BF5757E00F2B405 /* Supporting Files */,
 			);
 			path = ccYodaSpeak;
@@ -183,6 +174,47 @@
 				9686F8291BF5757E00F2B405 /* Info.plist */,
 			);
 			path = ccYodaSpeakUITests;
+			sourceTree = "<group>";
+		};
+		96D2A7CE1BF63E6B00EF1A57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9686F83F1BF57F9C00F2B405 /* yodaTableViewCell.h */,
+				9686F8401BF57F9C00F2B405 /* yodaTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		96D2A7CF1BF63E7600EF1A57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9686F83C1BF57F6F00F2B405 /* yodaResultsViewController.h */,
+				9686F83D1BF57F6F00F2B405 /* yodaResultsViewController.m */,
+				9686F8051BF5757E00F2B405 /* ViewController.h */,
+				9686F8061BF5757E00F2B405 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		96D2A7D01BF63E8000EF1A57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9686F80B1BF5757E00F2B405 /* ccYodaSpeak.xcdatamodeld */,
+				9686F8351BF5770000F2B405 /* yodaConstants.h */,
+				9686F8361BF5770000F2B405 /* yodaDataCalls.h */,
+				9686F8371BF5770000F2B405 /* yodaDataCalls.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		96D2A7D11BF63E8600EF1A57 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				96D2A7C81BF6384400EF1A57 /* profilePictureSmall.jpg */,
+				96D2A7CA1BF638B600EF1A57 /* yoda@2x.png */,
+				96D2A7CC1BF6393E00EF1A57 /* yodaLarge.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		DD83353CCD9BF1D2980A5E5E /* Frameworks */ = {
