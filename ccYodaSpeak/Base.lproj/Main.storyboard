@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dIO-P7-NIi">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yodaLarge.png" translatesAutoresizingMaskIntoConstraints="NO" id="aJ3-If-nFb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SKC-ym-pBp">
+                                <rect key="frame" x="20" y="133" width="335" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3l-at-ISp">
+                                <rect key="frame" x="20" y="188" width="335" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Zav-r6-MBq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
+                                <state key="normal" title="Yodafy Me">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a string, you must" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPc-lz-jpo">
+                                <rect key="frame" x="20" y="67" width="335" height="41"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="tEY-vc-9xg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.25098039220000001" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N3l-at-ISp" firstAttribute="trailing" secondItem="SKC-ym-pBp" secondAttribute="trailing" id="5CV-OJ-qhe"/>
+                            <constraint firstItem="N3l-at-ISp" firstAttribute="leading" secondItem="SKC-ym-pBp" secondAttribute="leading" id="CB4-4z-zyF"/>
+                            <constraint firstAttribute="trailing" secondItem="aJ3-If-nFb" secondAttribute="trailing" id="CjD-Ia-TVU"/>
+                            <constraint firstItem="DPc-lz-jpo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="3" id="H4G-8i-uZr"/>
+                            <constraint firstItem="aJ3-If-nFb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Lis-Xs-dsG"/>
+                            <constraint firstItem="DPc-lz-jpo" firstAttribute="trailing" secondItem="SKC-ym-pBp" secondAttribute="trailing" id="MDh-eb-KUI"/>
+                            <constraint firstItem="aJ3-If-nFb" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="O6Q-69-HTg"/>
+                            <constraint firstItem="SKC-ym-pBp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="WwZ-Ju-tnQ"/>
+                            <constraint firstItem="SKC-ym-pBp" firstAttribute="top" secondItem="DPc-lz-jpo" secondAttribute="bottom" constant="25" id="dCa-n1-erP"/>
+                            <constraint firstItem="DPc-lz-jpo" firstAttribute="leading" secondItem="SKC-ym-pBp" secondAttribute="leading" id="iE6-pV-yb8"/>
+                            <constraint firstItem="N3l-at-ISp" firstAttribute="top" secondItem="SKC-ym-pBp" secondAttribute="bottom" constant="25" id="kWm-yD-lDd"/>
+                            <constraint firstItem="aJ3-If-nFb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mv5-TL-57S"/>
+                            <constraint firstItem="DPc-lz-jpo" firstAttribute="centerX" secondItem="aJ3-If-nFb" secondAttribute="centerX" id="rHP-4h-Qyb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="t8a-pM-kdu"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="textField" destination="SKC-ym-pBp" id="hD6-oI-mMz"/>
+                        <outlet property="yodafyButton" destination="N3l-at-ISp" id="jto-du-9tP"/>
+                        <segue destination="NsE-1A-MEH" kind="show" identifier="toTableView" id="HhU-nQ-6hy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="773.5" y="290.5"/>
+        </scene>
+        <!--Yoda Results View Controller-->
+        <scene sceneID="TRv-D9-QiG">
+            <objects>
+                <viewController storyboardIdentifier="yodaResults" id="NsE-1A-MEH" customClass="yodaResultsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xjf-5f-PLN"/>
+                        <viewControllerLayoutGuide type="bottom" id="0uW-6o-AUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tgH-5S-eUn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="130" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="djE-wN-SHf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="130" id="trG-tC-rrZ" customClass="yodaTableViewCell">
+                                        <rect key="frame" x="0.0" y="92" width="375" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="trG-tC-rrZ" id="jIM-4J-Ogt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wib-Dy-vsS">
+                                                    <rect key="frame" x="69" y="4" width="298" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HG4-pl-cIA">
+                                                    <rect key="frame" x="69" y="70" width="298" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profilePictureSmall.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oMf-vc-Kwe">
+                                                    <rect key="frame" x="8" y="14" width="40" height="40"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yoda.png" translatesAutoresizingMaskIntoConstraints="NO" id="M4D-hZ-UzV">
+                                                    <rect key="frame" x="8" y="80" width="40" height="40"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="originalLabel" destination="wib-Dy-vsS" id="LQq-W8-np6"/>
+                                            <outlet property="yodaLabel" destination="HG4-pl-cIA" id="078-rA-fMN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="djE-wN-SHf" firstAttribute="leading" secondItem="tgH-5S-eUn" secondAttribute="leading" id="S6y-vR-ONi"/>
+                            <constraint firstItem="djE-wN-SHf" firstAttribute="top" secondItem="tgH-5S-eUn" secondAttribute="top" id="Ucr-3K-8Wf"/>
+                            <constraint firstItem="djE-wN-SHf" firstAttribute="bottom" secondItem="0uW-6o-AUh" secondAttribute="top" id="ZNe-dG-6z0"/>
+                            <constraint firstAttribute="trailing" secondItem="djE-wN-SHf" secondAttribute="trailing" id="qio-MW-SP8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="djE-wN-SHf" id="4AW-sf-I2U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Scw-wW-dhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262.5" y="290.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nbA-ug-yw9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dIO-P7-NIi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eNT-qt-PPu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="d3o-qw-6sG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUf-g6-XV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="229" y="302"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="profilePictureSmall.jpg" width="300" height="300"/>
+        <image name="yoda.png" width="624" height="600"/>
+        <image name="yodaLarge.png" width="846" height="944"/>
+    </resources>
+</document>
